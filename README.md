@@ -2,7 +2,7 @@
 
 Based in [uipoet's](https://github.com/uipoet/) [sublime-jshint](https://github.com/uipoet/sublime-jshint) project.
 
-![ScreenShot](https://raw.github.com/uipoet/sublime-jshint/preview/jshint.png)
+![ScreenShot](http://i59.tinypic.com/5f5kdy.jpg)
 
 **Prerequisites:** [lessc](http://lesscss.org/#using-less-installation)
 
@@ -20,7 +20,8 @@ In general you can install [lessc](http://lesscss.org/#using-less-installation) 
     
 ###2. Sublime Text Package Control
 
-1. Copy a the content of the repo to your packages Directory (e.g. '/home/user/.config/sublime-text-2/Packages/LessHint/')
+1. Copy a the content of the repo to your packages Directory (e.g. `/home/user/.config/sublime-text-2/Packages/LessHint/`
+)
 2. Restart Sublime Text
 
 ###3. Less Syntax Check an active Less file
