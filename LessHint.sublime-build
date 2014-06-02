@@ -1,0 +1,16 @@
+{
+  "selector": "source.less",
+
+  "cmd": ["lessc", "$file", "--lint", "--no-color"],
+
+  "file_regex": "JSHint: (.+)\\]",
+  "line_regex": "(\\d+),(\\d+): (.*)$",
+
+  "osx": {
+    "path": "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin"
+  },
+
+  "windows": {
+    "cmd": ["lessc.cmd", "$file", "--lint", "--no-color"]
+  }
+}
