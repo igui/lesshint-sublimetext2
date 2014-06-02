@@ -1,28 +1,31 @@
 #Less Syntax Check for Sublime Text
 
-Based in [uipoet] [sublime-jshint](https://github.com/uipoet/sublime-jshint) project.
+Based in [uipoet's](https://github.com/uipoet/) [sublime-jshint](https://github.com/uipoet/sublime-jshint) project.
 
 ![ScreenShot](https://raw.github.com/uipoet/sublime-jshint/preview/jshint.png)
 
-**Prerequisites:** [lessc](http://lesscss.org/#using-less-installation) and [Sublime Package Control](http://wbond.net/sublime_packages/package_control/installation)
+**Prerequisites:** [lessc](http://lesscss.org/#using-less-installation)
 
-**Mac OS X:** Installing node with homebrew or macports is assumed. The path to lessc is hardcoded in this plugin as `/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin`. There is no reliable way to get the path from your environment.
+**Mac OS X:** Installing node with [homebrew](http://brew.sh/) or [macports](http://www.macports.org/) is assumed. The path to lessc is hardcoded in this plugin as `/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin` because there is no reliable way to get the path from your environment.
 
 **Linux:** Make sure lessc is in your environment path.
 
-**Windows:** Installing node with the Windows Installer from nodejs.org is assumed.
+**Windows:** Installing node with the [Windows Installer](http://nodejs.org/download/) from [nodejs.org](http://nodejs.org/) is assumed.
 
-##1. Terminal
+###1. Install Less Compiler
 
-    npm install -g less
+In general you can install [lessc](http://lesscss.org/#using-less-installation) using [npm](https://www.npmjs.org/).
+
+    npm install -g lessc
     
-##2. Sublime Text Package Control
+###2. Sublime Text Package Control
 
-- Copy a the content of the repo to your packages Directory
-- Restart Sublime Text
+1. Copy a the content of the repo to your packages Directory (e.g. '/home/user/.config/sublime-text-2/Packages/LessHint/')
+2. Restart Sublime Text
 
-##3. JSHint an active JavaScript file
+###3. Less Syntax Check an active Less file
 
-- `control`-`l` *or* `alt`-`l` in Linux/Windows *or* Tools/Contextual menus *or* the Command Palette
+1. Save the file 
+2. `control`-`l` *or* `alt`-`l` in Linux/Windows *or* Tools/Contextual menus *or* the Command Palette
 
 
